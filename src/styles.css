@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #c4c4c4;
+}
+
+.titulo {
+  font-family: 'Roboto', sans-serif;
+  color:#194577;
+  text-align: center;
+  margin-top: 25px;
+}
+.row
+{
+  margin-top: 20px;
+
+}
+
+.btn-color {
+  background-color: #194577;
+  border-color: #194577;
+  border-radius: 25PX;
+  width: 100%;
+}
+
+.btn-color:hover {
+  background-color: #f49e22;
+  border-color: #f49e22;
+}
+
+.boton {
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
